@@ -1,0 +1,26 @@
+[
+    {
+        "ParameterKey": "EnvironmentName",
+        "ParameterValue": "UdacityProject"
+    },
+    {
+        "ParameterKey": "DBInstanceID",
+        "ParameterValue": "udacityproject-mysql-12345"
+    },
+    {
+        "ParameterKey": "DBName",
+        "ParameterValue": "UdacityProject"
+    },
+    {
+        "ParameterKey": "DBInstanceClass",
+        "ParameterValue": "db.t2.micro"
+    },
+    {
+        "ParameterKey": "DBUsername",
+        "ParameterValue": "udacity"
+    },
+    {
+        "ParameterKey": "DBPassword",
+        "ParameterValue": "udacityPass"
+    }
+]

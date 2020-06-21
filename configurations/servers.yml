@@ -65,12 +65,11 @@ Resources:
       ImageId: ami-0eb89db7593b5d434
       SecurityGroups:
         - Ref: WebAppSecurityGroup
-      InstanceType: t2.micro
+      InstanceType: t2.small
       BlockDeviceMappings:
         - DeviceName: "/dev/sdk"
           Ebs:
-            VolumeSize: 5
-      KeyName: jumper
+            VolumeSize: 10
   WebAppGroup:
     Type: "AWS::AutoScaling::AutoScalingGroup"
     Properties:
